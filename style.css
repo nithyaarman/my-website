@@ -1,0 +1,42 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightpink;
+            color: darkseagreen;
+        }
+
+        .navbar-inverse {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        #mynavbar {
+            background-color: lightpink;
+            text-decoration-color: brown;
+            margin-bottom: 0px; 
+        }
+
+        .background-container {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq5CUEOV68334xgIPu49PX-Vto7hPeT8vaJA&usqp=CAU');
+            background-size: cover;
+            background-position: center;
+            background-repeat:no-repeat;
+            height: 700px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: chocolate;
+            text-align: center;
+        }
+
+        h1, h2, h1 {
+            color: deeppink;
+            font-style:initial;
+            margin: 10;
+            padding: 10;
+        }   

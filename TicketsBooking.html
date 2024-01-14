@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightpink;
+            color: darkseagreen;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar {
+            background-color: aquamarine;
+            border: none;
+        }
+
+        .navbar-brand {
+            color: mediumaquamarine;
+            align-items: flex-start;
+        }
+
+        .navbar-nav > li > a {
+            color: aquamarine;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px; 
+            height: auto;
+            margin-top: 20px;
+            border: 5px solid mediumaquamarine; 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+        }
+
+        h1, h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100px;
+            padding: 10px;
+            margin-top: 10px;
+            background-color:purple;
+            color: aliceblue;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="navbar-collapse collapse" id="mynavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Movie Zone</a>
+    </div>
+    <div class="navbar-collapse collapse" id="mynavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="About.html">About</a></li>     
+            <li><a href="MoviesList.html">MoviesList</a></li>
+            <li><a href="TicketsBooking.html">TicketsBooking</a></li>
+            <li><a href="Reviews.html">Reviews</a></li>
+        </ul>
+    </div>
+</nav>
+    <marquee>
+        <img src="https://media.istockphoto.com/id/921956738/vector/vector-tickets.jpg?s=612x612&w=0&k=20&c=el-VmYFog5QzH8U8vRMbXmp4NjH23uIUpPgXp6jIZ1A=" alt="Ticket Image">
+    </marquee>
+
+<h1>Book Your Tickets</h1>
+<label>Select Theater:</label>
+<select>
+    <option value="choose your Theatre">choose your Theatre</option>     
+    <option value="theater1">AMB Cinemas</option>
+    <option value="theater2">Prasad Multiplex</option>
+    <option value="theater3">AAA Cinemas</option>
+    <option value="theater4">Asian Laxmikala</option>
+    <option value="theater5">NithyaKari Dts</option>
+</select><p></p>
+
+<input type="button" value="Book Now">
+
+<h2>Hurry! Go and Book!</h2>
+
+</body>
+</html>
